@@ -1,7 +1,7 @@
 // 首页最下面的商标
 var date = new Date();
 var year = date.getFullYear();
-var labal = 'Copyright © Kovid-19 ' + year
+var labal = 'Copyright © Covid-19 ' + year
 var first = document.getElementsByClassName('first')[0];
 first.innerText = labal
 
